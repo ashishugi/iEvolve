@@ -1,0 +1,208 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Login Page */
+
+.login {
+    text-align: center;
+    background-color: #6a2c70;
+    margin: 6%;
+}
+
+.loginCard {
+    margin: 1%;
+}
+
+.loginPic {
+    margin-top: 45%;
+    transform: scale(10);
+    color: #f3f3f1;
+}
+
+.loginHeader {
+    color: white;
+    font-weight: 800;
+}
+
+.login label input {
+    margin: 2%;
+}
+
+.login label {
+    color: white;
+}
+
+.login-form {
+    padding: 12% 12%;
+}
+
+.login input {
+    border-radius: 15%;
+}
+
+.right-form {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+button {
+    appearance: none;
+    outline: 0;
+    background-color: #b83b5e;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    border: solid 2px;
+    font-size: 18px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #eeecda;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+}
+
+
+/* Header.jsx */
+
+.header {
+    background-color: #f08a5d;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.carousel-item {
+    padding: 10% 18%;
+}
+
+
+/* Skill Card */
+
+.skill {
+    margin: 2%;
+    padding: 3% 5%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.skillCard {
+    top: 40%;
+}
+
+.skill h1,
+h2,
+h3 {
+    font-weight: 800;
+}
+
+.skill p {
+    color: #50a3a2;
+}
+
+
+/* MainContent */
+
+.mainContent {
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 8%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: #b83b5e;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.firstIcon {
+    margin: 10%;
+    transform: scale(2);
+    color: #f08a5d;
+}
+
+.mainContent h1 {
+    font-weight: 700;
+    color: white;
+}
+
+.mainContent p {
+    font-weight: 700;
+    color: #f08a5d;
+}
+
+.mainContent button {
+    border: solid 1px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #6a2c70;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.footerIcon {
+    transform: scale(1.7);
+    margin: 3%;
+    color: rgb(238, 231, 227);
+}
+
+.footer p {
+    padding-top: 5%;
+    color: white;
+}
+
+
+/* Courses */
+
+.courses {
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.courses h1 {
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+
+/* Completed */
+
+.completed {
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.completed h1 {
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.completed button {
+    background-color: rgb(10, 139, 10);
+}
+
+.completed button:hover {
+    background-color: rgb(128, 156, 128);
+}
